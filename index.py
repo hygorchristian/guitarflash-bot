@@ -34,11 +34,11 @@ while 1:
 
     #cv2.imshow('test', green)
 
-    matches(img_rgb, img_gray, green_a)
-    matches(img_rgb, img_gray, red_a)
-    matches(img_rgb, img_gray, yellow_a)
-    matches(img_rgb, img_gray, blue_a)
-    matches(img_rgb, img_gray, orange_a)
+    matches(img_rgb, img_gray, green)
+    matches(img_rgb, img_gray, red)
+    matches(img_rgb, img_gray, yellow)
+    matches(img_rgb, img_gray, blue)
+    matches(img_rgb, img_gray, orange)
 
     cv2.imshow('Detected',img_rgb)
 
